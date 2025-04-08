@@ -1,0 +1,13 @@
+Entrega Final do Projeto
+Ao concluir o projeto, os estudantes deverão apresentar:
+1. Relatório Completo (Report): Um relatório que descreva as etapas da análise,insights, os
+resultados obtidos, as conclusões e a viabilidade de implementação.
+2. Recomendações de Medidas Preventivas: Sugestões de ações que o Walmart pode tomar
+para minimizar fraudes futuras.
+3. Dashboard: Um modelo de dashboard em Looker, Excel, Google Sheets ou PowerBI de
+monitoramento das entregas baseado nos dados disponíveis que ajudaria a identificar em
+tempo real problemas nas entregas.
+4. Propostas de aprimoramento: Além da análise o que você propõe em termos de análise
+para melhor a acuracidade da detecção e prevenção deste tipo de fraude? Testes A/B? Quais?
+Melhoria nos dados? (Quais dados seriam necessários?), Pesquisas com o consumidor?
+Pesquisas qualitativas com os motoristas?

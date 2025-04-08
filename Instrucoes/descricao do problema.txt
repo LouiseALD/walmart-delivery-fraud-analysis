@@ -1,0 +1,106 @@
+Descrição do Problema
+Nos EUA o Walmart possui um sistema similar ao Uber em que entregadores se cadastram
+para entregar pedidos feitos através do site do Walmart. Estes entregadores (motoristas) não
+são funcionários do Walmart, mas trabalham independentemente aceitando pedidos de entrega
+e fazendo o recebimento destes pedidos pela equipe do Walmart e entrega destes pedidos ao
+endereço do consumidor. Muitos consumidores relataram que certos itens de seus pedidos não
+foram entregues, apesar de o sistema marcar a entrega como concluída. Isso levanta algumas
+questões críticas:
+1. Fraude do Entregador (Motorista): Há evidências de que motoristas possam estar
+reportando a entrega de itens que, na realidade, não chegaram até o cliente. Eles podem estar
+omitindo ou desviando itens do pedido, registrando, no entanto, a entrega total.
+2. Erro do Sistema ou Processo: Pode ser que o problema esteja em falhas no sistema de
+registro ou no processo de entrega, não se limitando a fraudes intencionais.
+3. Fraude do Consumidor: Em alguns casos, o consumidor pode estar declarando como não
+ter recebido um produto que foi entregue para assim pedir o reembolso do produto.
+Fontes de Dados
+Os dados fornecidos pelo Walmart incluem informações sobre as ordens de entrega, com
+detalhes relevantes para a análise, tais como:
+Tabelas Disponibilizadas
+1. Orders (pedidos)
+Esta tabela possui uma amostra de pedidos realizados no Walmart e-commerce site no ano de
+2023 na região de Central Florida, na Florida, EUA.
+Amostra dos dados
+date order_id order_amount region items_delivered
+items_
+missing
+delivery
+_hour driver_id
+customer_
+id
+2023-11-01 c7a343f7 $634.57 Clermont 14 3 13:50:54
+WDID09
+873
+WCID517
+0
+2023-07-16 2069829 $418.46 Apopka 16 3 5:12:52
+WDID09
+874
+WCID590
+1
+2023-06-15 d7f690a0 $314.43 Sanford 12 3 10:49:04
+WDID09
+875
+WCID565
+2
+● Date - Data do Pedido
+● Order_id - Número identificador do pedido. Este valor é único por pedido
+● Order_amount - Valor do Pedido
+● Region - Região de entrega do pedido
+● Items_delivered - Número total Itens entregues
+● Items_missing - Número total Itens perdidos (Não entregues)
+● Delivery_hour - Hora da entrega
+● Driver_id - ID do entregador (motorista responsável por entregar o pedido)
+● Customer_id - ID do consumidor (cliente que fez o pedido)
+2. Missing Items Data (Dados de Produtos declarados como não
+recebidos pelo cliente)
+Esta tabela possui uma amostra de produtos adquiridos na compra no Walmart e-commerce e
+que foram declarados como não recebidos pelo cliente.
+Amostra dos dados
+order_id product_id_1 product_id_2 product_id_3
+c7a343f7-3f1d-497c-8004 PWPX0982761090982 PWPX0982761090982 PWPX0982761090982
+20698293-8399-4fda-af1 PWPX0982761090983 PWPX0982761090983 PWPX0982761090983
+d7f690a0-c1c2-4b36-b05f PWPX0982761090984 PWPX0982761090984 PWPX0982761090984
+15cba1bc-6a92-4c97-b37 PWPX0982761091109 PWPX0982761091088
+304f3d20-4780-475a-aca PWPX0982761091110 PWPX0982761091089
+d8b4a4b3-b35e-427c-a0c PWPX0982761091111 PWPX0982761091090
+b0a31709-0fc4-46cf-b488 PWPX0982761091112
+16195ca2-121d-42e0-ba9 PWPX0982761091113
+c1ed403b-da93-47e8-894 PWPX0982761091114
+3077925f-6a4d-4026-936 PWPX0982761091115
+f2c09b49-874e-4f3b-a46b PWPX0982761091116
+Algumas compras tiveram mais de um produto declarado pelo consumidor como não entregue. Esta
+tabela mostra o codigo do pedido e o código do produto que não foi recebido pelo cliente.Algumas
+compras tiveram apenas um produto não entregue enquanto outras tiveram 2 e outras 3.
+● Order_id - Número identificador do pedido. Este valor é único por pedido
+● Product_id_1 - Primeiro ou único produto não entregue
+● Product_id_2 - Segundo produto não entregue
+● Product_id_3 - Terceiro produto não entregue
+3. Driver’s Data (Dados dos Entregadores (motoristas))
+Esta tabela possui os dados dos motoristas que coletaram as compras no Walmart e realizaram
+a entrega na casa do consumidor.
+● Driver_id - Número único (ID) de identificação do motorista (entregador)
+● Driver_name - Nome do motorista (entregador)
+● Age - Idade do motorista (entregador)
+● Trips - Quantas entregas este motorista (entregador) realizou no ano de 2023
+driver_id driver_name age Trips
+WDID09873 Pamela Moore 18 64
+WDID09874 Billy Lawson 18 37
+WDID09875 Stephen Randolph 18 64
+WDID09876 Jordan Daniel 18 53
+4. Products Data (Dados dos Produtos)
+Esta tabela possui os dados dos produtos que foram comprados. Esta tabela pode ajudar a
+identificar se existe um padrão no tipo de produto que mais é reportado como não entregue.
+● Product_id - Código de identificação do Produto
+● Product_name - Nome do Produto
+● Category - Categoria do Produto
+● Price - Preço do Produto
+5. Customer’s Data (Dados dos clientes)
+Esta tabela possui os dados dos clientes que realizaram as compras
+● Customer_id = ID do consumidor
+● Customer_name - Nome do Consumidor
+● Customer_age - Idade do Consumidor
+customer_id customer_name customer_age
+WCID5170 Elijah Taylor 30
+WCID5901 Alexis Ross 58
+WCID5652 Carla Knox 23

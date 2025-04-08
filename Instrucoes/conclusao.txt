@@ -1,0 +1,17 @@
+Conclusão
+Esse projeto permitirá que vocês apliquem habilidades analíticas e de ciência de dados a um
+problema real, onde a detecção de padrões e a modelagem preditiva podem ter impacto direto
+nos processos e na experiência do cliente. Além disso, a tarefa incentiva o desenvolvimento de
+uma mentalidade orientada à resolução de problemas e o pensamento analítico, ao abordar
+fraudes e medidas preventivas em um cenário prático.
+Link para acesso aos Dados
+Os dados estão disponíveis para download nesta aula abaixo, ou podem ser acessados via
+Data World pelo Link:
+Data World
+https://data.world/jerrys/introduction-to-data-analytics/workspace
+Tabelas
+● orders
+● products_data
+● missing_items_data
+● customers_data
+● drivers_data
