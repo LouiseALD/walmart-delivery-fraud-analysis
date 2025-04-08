@@ -24,6 +24,10 @@ A estrutura do projeto está organizada da seguinte forma:
 
 Todos os scripts estão comentados e versionados para facilitar a reprodutibilidade.
 
+
+![Banner do Projeto](./Imagens/capa.png)
+
+
 ---
 
 ## Etapas da Análise
