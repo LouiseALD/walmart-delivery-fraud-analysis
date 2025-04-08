@@ -1,8 +1,10 @@
 ![Banner do Projeto](./Imagens/capa.png)
 
-# Projeto de Detecção de Fraudes nas Entregas do Walmart
+# Projeto 
 
-## Visão Geral e Contexto do Problema
+## Detecção de Fraudes nas Entregas do Walmart
+
+## 📌 Visão Geral e Contexto do Problema
 
 O aumento expressivo das compras online nos últimos anos trouxe grandes benefícios para empresas e consumidores, mas também revelou vulnerabilidades operacionais, especialmente nos processos de entrega. Empresas de grande porte, como o Walmart, enfrentam desafios crescentes relacionados à confiabilidade da entrega, perdas logísticas e fraudes.
 
