@@ -1,3 +1,4 @@
+![Banner do Projeto](./Imagens/capa.png)
 
 # Projeto de Detecção de Fraudes nas Entregas do Walmart
 
@@ -8,9 +9,6 @@ O aumento expressivo das compras online nos últimos anos trouxe grandes benefí
 Fraudes em entregas ocorrem quando há inconsistências entre o que foi enviado e o que o cliente declara ter recebido, podendo envolver motoristas, clientes ou falhas sistêmicas. Esses eventos geram prejuízos financeiros, perda de confiança dos clientes e aumento de custos operacionais. 
 
 Este projeto busca entender a origem dessas falhas a partir de um conjunto de dados reais da operação do Walmart na região Central da Flórida. Utilizando técnicas de ciência de dados, foi possível extrair padrões de comportamento, identificar atores recorrentes em falhas e propor soluções com embasamento técnico e estatístico.
-
-
-![Banner do Projeto](./Imagens/capa.png)
 
 ## Introdução
 
