@@ -39,8 +39,6 @@ Este projeto tem como objetivo aplicar ciência de dados para detectar, analisar
 
 💡 Todos os scripts estão comentados e versionados para facilitar a reprodutibilidade.
 
-## GUIA
-
 <p align="center">
   <a href="README.md">📘 README</a> •
   <a href="./Relatório/RELATORIO.md">📊 Relatório</a> •
