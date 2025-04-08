@@ -14,7 +14,8 @@ sys.path.append(os.path.dirname(__file__))
 
 # Define o caminho dinâmico para o banco de dados
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_PATH = os.path.join(BASE_DIR, "Database/walmart_fraudes.db")
+DB_PATH = os.path.join(BASE_DIR, "..", "Database", "walmart_fraudes.db")
+
 
 
 # Importar configurações de estilo
@@ -186,6 +187,9 @@ def carregar_dados():
 def main():
     """Função principal que gerencia o fluxo da aplicação"""
     # Carregar dados
+    st.write(f"Tentando carregar o banco em: {DB_PATH}")
+    st.write("Existe?", os.path.exists(DB_PATH))
+
     data = carregar_dados()
     
     # Criar cabeçalho
