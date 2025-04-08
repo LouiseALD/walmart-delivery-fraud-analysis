@@ -43,6 +43,7 @@ Este projeto tem como objetivo aplicar ciência de dados para detectar, analisar
   <a href="README.MD">📘 README</a> •
   <a href="./Relatório/RELATORIO.md">📊 Relatório</a> •
   <a href="./Instrucoes/INSTRUCOES.md">📂 Documentação</a>
+  <a href="https://walmart-delivery-fraud-analysis-dashboard.streamlit.app/">📊 Dashboard</a>
 </p>
 
 ---
