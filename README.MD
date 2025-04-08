@@ -1,8 +1,8 @@
 ![Banner do Projeto](./Imagens/capa.png)
 
-# Projeto 
+## Projeto: 
 
-## Detecção de Fraudes nas Entregas do Walmart
+### Detecção de Fraudes nas Entregas do Walmart
 
 ## 📌 Visão Geral e Contexto do Problema
 
