@@ -1,8 +1,13 @@
-![Banner do Projeto](./Imagens/capa.png)
+<p align="center">
+  <img src="./Imagens/capa.png" alt="Banner do Projeto" width="100%">
+</p>
 
-## Projeto: 
 
-### Detecção de Fraudes nas Entregas do Walmart
+ 
+# 🛡️ Detecção de Fraudes nas Entregas do Walmart
+
+
+
 
 ## 📌 Visão Geral e Contexto do Problema
 
@@ -16,8 +21,15 @@ Este projeto busca entender a origem dessas falhas a partir de um conjunto de da
 
 Este projeto tem como objetivo aplicar ciência de dados para detectar, analisar e mitigar ocorrências de fraudes em entregas realizadas pelo Walmart na região Central da Flórida. A iniciativa se apoia em um conjunto de dados realistas, técnicas estatísticas, machine learning e estratégias de visualização de dados para propor soluções concretas e baseadas em evidências.
 
-A estrutura do projeto está organizada da seguinte forma:
+📁 **Estrutura do Projeto**
+- `Notebooks/`
+- `Dados/`
+- `Database/`
+- `Documentação/`
+- `Relatório/`
+- `Dashboard/`
 
+Onde, a estrutura do projeto está organizada da seguinte forma:
 - `Notebooks/`: Contém os Jupyter Notebooks utilizados para cada etapa da análise (EDA, modelagem, avaliação, etc.).
 - `Dados/`: Inclui os arquivos CSV com os dados brutos.
 - `Database/`: Armazena a base de dados em SQLite utilizada para realizar consultas SQL e cruzamentos entre tabelas.
