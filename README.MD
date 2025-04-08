@@ -9,6 +9,9 @@ Fraudes em entregas ocorrem quando há inconsistências entre o que foi enviado 
 
 Este projeto busca entender a origem dessas falhas a partir de um conjunto de dados reais da operação do Walmart na região Central da Flórida. Utilizando técnicas de ciência de dados, foi possível extrair padrões de comportamento, identificar atores recorrentes em falhas e propor soluções com embasamento técnico e estatístico.
 
+
+![Banner do Projeto](./Imagens/capa.png)
+
 ## Introdução
 
 Este projeto tem como objetivo aplicar ciência de dados para detectar, analisar e mitigar ocorrências de fraudes em entregas realizadas pelo Walmart na região Central da Flórida. A iniciativa se apoia em um conjunto de dados realistas, técnicas estatísticas, machine learning e estratégias de visualização de dados para propor soluções concretas e baseadas em evidências.
@@ -23,10 +26,6 @@ A estrutura do projeto está organizada da seguinte forma:
 - `Dashboard/`: Dashboard desenvolvido em Power BI para análise interativa.
 
 Todos os scripts estão comentados e versionados para facilitar a reprodutibilidade.
-
-
-![Banner do Projeto](./Imagens/capa.png)
-
 
 ---
 
