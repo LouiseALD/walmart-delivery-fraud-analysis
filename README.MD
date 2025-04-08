@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Imagens/capa.png" alt="Banner do Projeto" width="100%">
+  <img src="./Imagens/capa2.png" alt="Banner do Projeto" width="100%">
 </p>
 
 # 🛡️ Detecção de Fraudes nas Entregas do Walmart
