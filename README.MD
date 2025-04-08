@@ -1,11 +1,4 @@
 <p align="center">
-  <a href="README.md">📘 README</a> •
-  <a href="./Relatório/RELATORIO.md">📊 Relatório</a> •
-  <a href="./Instrucoes/INSTRUCOES.md">📂 Documentação</a>
-</p>
-
-
-<p align="center">
   <img src="./Imagens/capa2.png" alt="Banner do Projeto" width="100%">
 </p>
 
@@ -45,6 +38,14 @@ Este projeto tem como objetivo aplicar ciência de dados para detectar, analisar
 - `Dashboard/`: Dashboard desenvolvido em Power BI para análise interativa.
 
 💡 Todos os scripts estão comentados e versionados para facilitar a reprodutibilidade.
+
+## GUIA
+
+<p align="center">
+  <a href="README.md">📘 README</a> •
+  <a href="./Relatório/RELATORIO.md">📊 Relatório</a> •
+  <a href="./Instrucoes/INSTRUCOES.md">📂 Documentação</a>
+</p>
 
 ---
 
