@@ -16,7 +16,7 @@ Este projeto busca entender a origem dessas falhas a partir de um conjunto de da
 
 ---
 
-## 🚀 Introdução
+## 🧭 Introdução
 
 Este projeto tem como objetivo aplicar ciência de dados para detectar, analisar e mitigar ocorrências de fraudes em entregas realizadas pelo Walmart na região Central da Flórida. A iniciativa se apoia em um conjunto de dados realistas, técnicas estatísticas, machine learning e estratégias de visualização de dados para propor soluções concretas e baseadas em evidências.
 
