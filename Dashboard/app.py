@@ -12,6 +12,11 @@ import traceback
 # Adicionar o diretório atual ao path para importar módulos personalizados
 sys.path.append(os.path.dirname(__file__))
 
+# Define o caminho dinâmico para o banco de dados
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_PATH = os.path.join(BASE_DIR, "Database/walmart_fraudes.db")
+
+
 # Importar configurações de estilo
 from config.style_config import apply_style, get_custom_css
 st.markdown(
@@ -154,10 +159,34 @@ def create_navigation_menu():
     
     return tabs
 
+def carregar_dados():
+    if not os.path.exists(DB_PATH):
+        st.error(f"Arquivo de banco de dados não encontrado em {DB_PATH}")
+        return None
+
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        data = {
+            'drivers': pd.read_sql_query("SELECT * FROM drivers", conn),
+            'suspicious_drivers': pd.read_sql_query("SELECT * FROM suspicious_drivers", conn),
+            'fraud_region': pd.read_sql_query("SELECT * FROM fraud_region", conn),
+            'missing_products': pd.read_sql_query("SELECT * FROM missing_products", conn),
+            'fraud_time': pd.read_sql_query("SELECT * FROM fraud_time", conn),
+            'fraud_trend': pd.read_sql_query("SELECT * FROM fraud_trend", conn),
+            'suspicious_customers': pd.read_sql_query("SELECT * FROM suspicious_customers", conn)
+        }
+        conn.close()
+        return data
+    except Exception as e:
+        st.error(f"Erro ao carregar os dados do banco: {e}")
+        return None
+
+
+
 def main():
     """Função principal que gerencia o fluxo da aplicação"""
     # Carregar dados
-    data = load_data()
+    data = carregar_dados()
     
     # Criar cabeçalho
     create_header()
@@ -199,7 +228,6 @@ def main():
 if __name__ == "__main__":
     try:
         main()
-
     except Exception as e:
         st.error(f"Ocorreu um erro na aplicação: {e}")
         st.text("Detalhes do erro:")
