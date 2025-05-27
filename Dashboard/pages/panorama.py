@@ -298,27 +298,27 @@ def create_case_introduction():
         st.markdown("""
         ### Processo de Investigação Recomendado
         
-        ** Passo 1: Identificação (Panorama)**
+        **Passo 1: Identificação (Panorama)**
         - Verifique os KPIs principais
         - Identifique motoristas e produtos críticos
         - Observe tendências gerais
         
-        ** Passo 2: Análise Detalhada**
+        **Passo 2: Análise Detalhada**
         - Use "Padrões Ocultos" para correlações
         - Analise "Produtos & Categorias" para especificidades
         - Examine "Regiões & Entregadores" para contexto geográfico
         
-        ** Passo 3: Contextualização**
+        **Passo 3: Contextualização**
         - Consulte "Análise Temporal" para sazonalidade
         - Revise "Evolução" para tendências históricas
         - Utilize "Diagnóstico" para causas raiz
     
-        ** Passo 4: Ação**
+        **Passo 4: Ação**
         - Implemente sugestões de "Recomendações"
         - Configure alertas baseados nos insights
         - Monitore resultados continuamente
         
-        ** Passo 5: Monitoramento**
+        **Passo 5: Monitoramento**
         - Retorne ao "Panorama" para acompanhar evolução
         - Ajuste estratégias baseado em novos dados
         - Documente lições aprendidas
