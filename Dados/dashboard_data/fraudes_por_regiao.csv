@@ -1,0 +1,8 @@
+region,total_pedidos,total_itens_faltantes,media_itens_faltantes,percentual_fraude
+Altamonte Springs,1426,253,0.18,1.76
+Apopka,1422,249,0.18,1.73
+Clermont,1384,243,0.18,1.72
+Orlando,1401,233,0.17,1.64
+Winter Park,1485,235,0.16,1.56
+Sanford,1461,225,0.15,1.54
+Kissimmee,1421,219,0.15,1.5
