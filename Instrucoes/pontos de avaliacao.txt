@@ -1,7 +1,0 @@
-Pontos de Avaliação
-O projeto será avaliado com base nos seguintes critérios:
-- Compreensão e uso adequado das técnicas de EDA e análise estatística.
-- Eficácia dos modelos de detecção de fraudes implementados.
-- Clareza e detalhamento das recomendações finais.
-- Qualidade e organização do relatório e dashboard entregue
-- Coerência e profissionalismo na apresentação dos resultados.
